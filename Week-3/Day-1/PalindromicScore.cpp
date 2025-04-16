@@ -15,9 +15,8 @@ int main(){
         for(int i=0; i<3; i++){
             cin >> v[i];
         }
+        
         sort(v.begin(), v.end());
-        v.pop_back();
-
         int ans = 0;
         ans += v[1];
 
