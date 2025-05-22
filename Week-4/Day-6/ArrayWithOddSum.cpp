@@ -16,6 +16,7 @@ int main(){
 
         vector <int> v(n);
         int odd = 0, even = 0;
+        
         for(auto &x : v){ 
             cin >> x;
             if(x % 2 == 1) odd++;
