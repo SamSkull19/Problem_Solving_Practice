@@ -6,7 +6,6 @@ const int MOD = 998244353;
 
 ll modPow(ll a, ll n){
     if(n == 0) return 1;
-
     ll x = modPow(a, n/2);
     ll sum = (x * x % MOD) * (n & 1 ? a : 1) % MOD;
     return sum;
